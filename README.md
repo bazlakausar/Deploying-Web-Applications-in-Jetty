@@ -27,6 +27,17 @@
      
          ![5](https://user-images.githubusercontent.com/79251268/131472010-e7a780b6-381e-4c8e-9d54-e9c07833b909.png)
 
+  # 2) JETTY STRUCTURE
+         
+         
+   
+ 
+ 
+ ![123](https://user-images.githubusercontent.com/79251268/131486655-06a0781c-f544-48cc-8dd6-4f76fb09e4f1.png)
+ 
+ 
+ 
+
 
    
   
