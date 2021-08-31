@@ -37,6 +37,44 @@
  
  
  
+ 
+ # 3) USING WAR (Deploying web application by copying WAR)
+* To deploy a web application to a Jetty server, transfer the WAR file into $JETTY_HOME/webapps directory.
+* Navigating into $JETTY HOME and performing the command will start the server:
+          
+          ```java -jar start.jar```
+          
+* /Jetty-app context will host our new app.
+        
+        
+        
+![6](https://user-images.githubusercontent.com/79251268/131491606-cae8f964-d4d8-43ff-b0be-c5591da6b320.png)
+        
+        
+        
+        
+        
+        
+        
+* Hello world! should appear on the screen if we navigate to the URL given below in the web browser.
+        
+          ```http://localhost:8080/jetty-app```
+          
+          
+          
+          
+          
+          
+          
+![7](https://user-images.githubusercontent.com/79251268/131492204-0901dc8b-3c27-4efb-92ef-a937c38ccd67.png)
+
+        
+        
+        
+
+ 
+ 
+ 
 
 
    
