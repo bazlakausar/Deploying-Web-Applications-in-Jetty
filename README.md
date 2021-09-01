@@ -42,7 +42,7 @@
 * To deploy a web application to a Jetty server, transfer the WAR file into $JETTY_HOME/webapps directory.
 * Navigating into $JETTY HOME and performing the command will start the server:
           
-          ```java -jar start.jar```
+    ```java -jar start.jar```
           
 * /Jetty-app context will host our new app.
         
@@ -58,7 +58,7 @@
         
 * Hello world! should appear on the screen if we navigate to the URL given below in the web browser.
         
-          ```http://localhost:8080/jetty-app```
+   ```http://localhost:8080/jetty-app```
           
           
           
@@ -67,6 +67,32 @@
           
           
 ![7](https://user-images.githubusercontent.com/79251268/131492204-0901dc8b-3c27-4efb-92ef-a937c38ccd67.png)
+
+ # 4) USING JETTY MAVEN PLUGIN (Deploying web application by using jetty maven plugin)
+  * As we build Java web applications, the jetty Maven plugin allows us to perform rapid testing and iteration.
+  * Adding the plugin to pom.xml is all that's required to deploy and run applications with it:
+
+    ```<plugin>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-maven-plugin</artifactId>
+    <version>9.3.11.v20160721</version>
+</plugin>```
+  * After adding the plugin, we navigate to the root of our app and run the following command:
+ 
+     ```mvn jetty:run```
+  
+![8](https://user-images.githubusercontent.com/79251268/131664966-876584b8-065e-44c9-ab72-1205a7d2b6f9.png)
+
+![9](https://user-images.githubusercontent.com/79251268/131665633-d3ecdc24-b201-482b-93ff-3cda8796f509.png)
+
+
+  
+ * The plugin deploys the app to a new jetty instance created by this command. We can get to it by typing the URL given below:
+  
+    ```http://localhost:8080```
+  
+ ![10](https://user-images.githubusercontent.com/79251268/131665972-2acb4cdd-b549-4637-85bc-2d0b30ae839d.png)
+
 
         
         
